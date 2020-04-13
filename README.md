@@ -29,7 +29,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 X_train = np.linspace(0,6,100).reshape(-1,1)
-y_train = np.sin(X_train) + np.random.normal(loc=0,scale=0.3,size=X_train)
+y_train = np.sin(X_train) + np.random.normal(loc=0,scale=0.3,size=X_train.shape)
 y_train = y_train.flatten()
 X_test = np.linspace(-1,7,1000).reshape(-1,1)
 
