@@ -21,7 +21,7 @@ $ pip3 install <your_repo_dir>
 
 ### Basic Usage
 
-Here is a basic example implementing a [LOESS][1] model:
+Here is a basic example implementing a [LOESS][1] model as a localized OLS LinearRegression straight from the scikit library:
 
 ```
 from local_models.local_models import *
